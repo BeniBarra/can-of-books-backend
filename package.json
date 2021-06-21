@@ -1,20 +1,30 @@
 {
-  "name": "auth0TestBack",
+  "name": "auth0testback",
   "version": "1.0.0",
-  "description": "",
+  "description": "This repository has starter code to begin work on creating your own online bookshelf.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Shan Jiang & Benjamin Ibarra",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^8.2.0",
+    "dotenv": "^8.6.0",
     "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "express-jwt-authz": "^2.4.1",
     "jsonwebtoken": "^8.5.1",
     "jwks-rsa": "^2.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShanJiang1911/can-of-books-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ShanJiang1911/can-of-books-backend/issues"
+  },
+  "homepage": "https://github.com/ShanJiang1911/can-of-books-backend#readme"
 }
