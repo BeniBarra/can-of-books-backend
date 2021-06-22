@@ -79,7 +79,7 @@ app.get('/allofthebooks', (req, res) => {
 });
 
 app.get('/books', (req, res) => {
-  const token = req.headers.authorization.split('')[1];
+  const token = req.headers.authorization.split(' ')[1];
   //make sure the token was valid
   jwt.verify(token, getKey, {}, function(err, user) {
     if(err) {
