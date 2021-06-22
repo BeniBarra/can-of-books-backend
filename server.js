@@ -89,7 +89,7 @@ app.get('/books', (req, res) => {
       let userEmail = user.email;
       Book.find({email: userEmail}, (err,books) => {
         console.log(books);
-        res.send(kittens);
+        res.send(books);
       });
     }
   });
