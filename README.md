@@ -4,15 +4,15 @@
 
 **Version**: 1.0.0 
 
-Name of feature: lab11
+Name of feature: lab13
 
 Estimate of time needed to complete: 5-6 hours
 
 Start time: 1:30
 
-Finish time: 6:00
+Finish time: 5:00
 
-Actual time needed to complete: 6hours
+Actual time needed to complete: 3.5 hours
 
 ## Overview
 With this app we're are implementing the use of Auth0 to practice adding log in features to our sites

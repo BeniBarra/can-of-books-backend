@@ -137,7 +137,7 @@ app.post('/books', (req, res) => {
       //req.body ONLY exists because of the configuration line at the top of the file
       //don't forget app.use(express.json()) on top
       //otherwise, req.body will be undefined
-      condole.log(req.body);
+      console.log(req.body);
       const newBook = new Book({
         name: req.body.name,
         description: req.body.description,
