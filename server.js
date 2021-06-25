@@ -16,9 +16,10 @@ app.use(express.json());
 let bookHandlers = require('./bookHandlers');
 
 // database stuff
+const MONGODB_URI=process.env.MONGODB_URI || 'mongodb://localhost:27017/test';
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/test', {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect(MONGODB_URI, {useNewUrlParser: true, useUnifiedTopology: true});
 
 
 // database error warnings from the quickstart guide
